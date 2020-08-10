@@ -16,6 +16,7 @@ def list_cleaner(list):
 #klist
 def klist_creator():
     #all this pulls out the list from a text file I made of the list exported from google drive
+    ### IF COPYING CODE YOURSELF, YOU'LL HAVE TO CHANGE THIS FUNCTION ###
     with open("/Users/ben/KindergartenWords.txt", "r") as w:
         klist = w.read().split()
     #the first word in the list is a bit of code, not an actual word so I deleted it
